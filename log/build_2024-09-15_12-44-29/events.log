@@ -1,0 +1,111 @@
+[0.000000] (-) TimerEvent: {}
+[0.000832] (pymoveit2) JobQueued: {'identifier': 'pymoveit2', 'dependencies': OrderedDict()}
+[0.001062] (kamera_tf2_py) JobQueued: {'identifier': 'kamera_tf2_py', 'dependencies': OrderedDict([('pymoveit2', '/home/nikolaakrap/zavrsni/install/pymoveit2')])}
+[0.001134] (pymoveit2) JobStarted: {'identifier': 'pymoveit2'}
+[0.007045] (pymoveit2) JobProgress: {'identifier': 'pymoveit2', 'progress': 'cmake'}
+[0.007510] (pymoveit2) JobProgress: {'identifier': 'pymoveit2', 'progress': 'build'}
+[0.008141] (pymoveit2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nikolaakrap/zavrsni/build/pymoveit2', '--', '-j8', '-l8'], 'cwd': '/home/nikolaakrap/zavrsni/build/pymoveit2', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('LANGUAGE', 'en_US'), ('LC_TIME', 'hr_HR.UTF-8'), ('USER', 'root'), ('HOME', '/root'), ('LC_MONETARY', 'hr_HR.UTF-8'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('LOGNAME', 'root'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LC_ADDRESS', 'hr_HR.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'hr_HR.UTF-8'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3JVEU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build'), ('LC_NAME', 'hr_HR.UTF-8'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'nikolaakrap'), ('LC_MEASUREMENT', 'hr_HR.UTF-8'), ('LC_IDENTIFICATION', 'hr_HR.UTF-8'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/nikolaakrap/zavrsni/build/pymoveit2'), ('LC_NUMERIC', 'hr_HR.UTF-8'), ('LC_PAPER', 'hr_HR.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.059006] (pymoveit2) StdoutLine: {'line': b'Built target ament_cmake_python_copy_pymoveit2\n'}
+[0.099740] (-) TimerEvent: {}
+[0.200314] (-) TimerEvent: {}
+[0.224252] (pymoveit2) StdoutLine: {'line': b'running egg_info\n'}
+[0.224739] (pymoveit2) StdoutLine: {'line': b'writing pymoveit2.egg-info/PKG-INFO\n'}
+[0.224957] (pymoveit2) StdoutLine: {'line': b'writing dependency_links to pymoveit2.egg-info/dependency_links.txt\n'}
+[0.225104] (pymoveit2) StdoutLine: {'line': b'writing top-level names to pymoveit2.egg-info/top_level.txt\n'}
+[0.227640] (pymoveit2) StdoutLine: {'line': b"reading manifest file 'pymoveit2.egg-info/SOURCES.txt'\n"}
+[0.228348] (pymoveit2) StdoutLine: {'line': b"writing manifest file 'pymoveit2.egg-info/SOURCES.txt'\n"}
+[0.262025] (pymoveit2) StdoutLine: {'line': b'Built target ament_cmake_python_build_pymoveit2_egg\n'}
+[0.271917] (pymoveit2) CommandEnded: {'returncode': 0}
+[0.291667] (pymoveit2) JobProgress: {'identifier': 'pymoveit2', 'progress': 'install'}
+[0.298537] (pymoveit2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nikolaakrap/zavrsni/build/pymoveit2'], 'cwd': '/home/nikolaakrap/zavrsni/build/pymoveit2', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('LANGUAGE', 'en_US'), ('LC_TIME', 'hr_HR.UTF-8'), ('USER', 'root'), ('HOME', '/root'), ('LC_MONETARY', 'hr_HR.UTF-8'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('LOGNAME', 'root'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LC_ADDRESS', 'hr_HR.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'hr_HR.UTF-8'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3JVEU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build'), ('LC_NAME', 'hr_HR.UTF-8'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'nikolaakrap'), ('LC_MEASUREMENT', 'hr_HR.UTF-8'), ('LC_IDENTIFICATION', 'hr_HR.UTF-8'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/nikolaakrap/zavrsni/build/pymoveit2'), ('LC_NUMERIC', 'hr_HR.UTF-8'), ('LC_PAPER', 'hr_HR.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.300437] (-) TimerEvent: {}
+[0.305077] (pymoveit2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.305461] (pymoveit2) StdoutLine: {'line': b'-- Up-to-date: /home/nikolaakrap/zavrsni/install/pymoveit2/share/pymoveit2/environment/pythonpath.sh\n'}
+[0.305578] (pymoveit2) StdoutLine: {'line': b'-- Up-to-date: /home/nikolaakrap/zavrsni/install/pymoveit2/share/pymoveit2/environment/pythonpath.dsv\n'}
+[0.305682] (pymoveit2) StdoutLine: {'line': b'-- Up-to-date: /home/nikolaakrap/zavrsni/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2-4.0.0-py3.10.egg-info\n'}
+[0.305784] (pymoveit2) StdoutLine: {'line': b'-- Installing: /home/nikolaakrap/zavrsni/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2-4.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.305958] (pymoveit2) StdoutLine: {'line': b'-- Installing: /home/nikolaakrap/zavrsni/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2-4.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.306173] (pymoveit2) StdoutLine: {'line': b'-- Installing: /home/nikolaakrap/zavrsni/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2-4.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.306296] (pymoveit2) StdoutLine: {'line': b'-- Installing: /home/nikolaakrap/zavrsni/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2-4.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.306396] (pymoveit2) StdoutLine: {'line': b'-- Up-to-date: /home/nikolaakrap/zavrsni/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2\n'}
+[0.306503] (pymoveit2) StdoutLine: {'line': b'-- Up-to-date: /home/nikolaakrap/zavrsni/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/moveit2_gripper.py\n'}
+[0.306597] (pymoveit2) StdoutLine: {'line': b'-- Up-to-date: /home/nikolaakrap/zavrsni/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/__init__.py\n'}
+[0.306689] (pymoveit2) StdoutLine: {'line': b'-- Up-to-date: /home/nikolaakrap/zavrsni/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/gripper_interface.py\n'}
+[0.306781] (pymoveit2) StdoutLine: {'line': b'-- Up-to-date: /home/nikolaakrap/zavrsni/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/moveit2.py\n'}
+[0.306872] (pymoveit2) StdoutLine: {'line': b'-- Up-to-date: /home/nikolaakrap/zavrsni/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/robots\n'}
+[0.306963] (pymoveit2) StdoutLine: {'line': b'-- Up-to-date: /home/nikolaakrap/zavrsni/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/robots/phantomx_pincher.py\n'}
+[0.307054] (pymoveit2) StdoutLine: {'line': b'-- Up-to-date: /home/nikolaakrap/zavrsni/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/robots/panda.py\n'}
+[0.307159] (pymoveit2) StdoutLine: {'line': b'-- Up-to-date: /home/nikolaakrap/zavrsni/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/robots/kinova.py\n'}
+[0.307256] (pymoveit2) StdoutLine: {'line': b'-- Up-to-date: /home/nikolaakrap/zavrsni/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/robots/__init__.py\n'}
+[0.307348] (pymoveit2) StdoutLine: {'line': b'-- Up-to-date: /home/nikolaakrap/zavrsni/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/robots/crane_x7.py\n'}
+[0.307439] (pymoveit2) StdoutLine: {'line': b'-- Up-to-date: /home/nikolaakrap/zavrsni/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/robots/lbr.py\n'}
+[0.307530] (pymoveit2) StdoutLine: {'line': b'-- Up-to-date: /home/nikolaakrap/zavrsni/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/gripper_command.py\n'}
+[0.307620] (pymoveit2) StdoutLine: {'line': b'-- Up-to-date: /home/nikolaakrap/zavrsni/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/moveit2_servo.py\n'}
+[0.329641] (pymoveit2) StdoutLine: {'line': b"Listing '/home/nikolaakrap/zavrsni/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2'...\n"}
+[0.329862] (pymoveit2) StdoutLine: {'line': b"Listing '/home/nikolaakrap/zavrsni/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/robots'...\n"}
+[0.333774] (pymoveit2) StdoutLine: {'line': b'-- Up-to-date: /home/nikolaakrap/zavrsni/install/pymoveit2/lib/pymoveit2/ex_allow_collisions.py\n'}
+[0.334045] (pymoveit2) StdoutLine: {'line': b'-- Up-to-date: /home/nikolaakrap/zavrsni/install/pymoveit2/lib/pymoveit2/ex_clear_planning_scene.py\n'}
+[0.334241] (pymoveit2) StdoutLine: {'line': b'-- Up-to-date: /home/nikolaakrap/zavrsni/install/pymoveit2/lib/pymoveit2/ex_collision_mesh.py\n'}
+[0.334379] (pymoveit2) StdoutLine: {'line': b'-- Up-to-date: /home/nikolaakrap/zavrsni/install/pymoveit2/lib/pymoveit2/ex_collision_primitive.py\n'}
+[0.334552] (pymoveit2) StdoutLine: {'line': b'-- Up-to-date: /home/nikolaakrap/zavrsni/install/pymoveit2/lib/pymoveit2/ex_fk.py\n'}
+[0.334726] (pymoveit2) StdoutLine: {'line': b'-- Up-to-date: /home/nikolaakrap/zavrsni/install/pymoveit2/lib/pymoveit2/ex_gripper.py\n'}
+[0.334898] (pymoveit2) StdoutLine: {'line': b'-- Up-to-date: /home/nikolaakrap/zavrsni/install/pymoveit2/lib/pymoveit2/ex_ik.py\n'}
+[0.335069] (pymoveit2) StdoutLine: {'line': b'-- Up-to-date: /home/nikolaakrap/zavrsni/install/pymoveit2/lib/pymoveit2/ex_joint_goal.py\n'}
+[0.335267] (pymoveit2) StdoutLine: {'line': b'-- Up-to-date: /home/nikolaakrap/zavrsni/install/pymoveit2/lib/pymoveit2/ex_orientation_path_constraint.py\n'}
+[0.335454] (pymoveit2) StdoutLine: {'line': b'-- Up-to-date: /home/nikolaakrap/zavrsni/install/pymoveit2/lib/pymoveit2/ex_pose_goal.py\n'}
+[0.335710] (pymoveit2) StdoutLine: {'line': b'-- Up-to-date: /home/nikolaakrap/zavrsni/install/pymoveit2/lib/pymoveit2/ex_servo.py\n'}
+[0.335812] (pymoveit2) StdoutLine: {'line': b'-- Up-to-date: /home/nikolaakrap/zavrsni/install/pymoveit2/share/ament_index/resource_index/package_run_dependencies/pymoveit2\n'}
+[0.335912] (pymoveit2) StdoutLine: {'line': b'-- Up-to-date: /home/nikolaakrap/zavrsni/install/pymoveit2/share/ament_index/resource_index/parent_prefix_path/pymoveit2\n'}
+[0.336029] (pymoveit2) StdoutLine: {'line': b'-- Up-to-date: /home/nikolaakrap/zavrsni/install/pymoveit2/share/pymoveit2/environment/ament_prefix_path.sh\n'}
+[0.336158] (pymoveit2) StdoutLine: {'line': b'-- Up-to-date: /home/nikolaakrap/zavrsni/install/pymoveit2/share/pymoveit2/environment/ament_prefix_path.dsv\n'}
+[0.336270] (pymoveit2) StdoutLine: {'line': b'-- Up-to-date: /home/nikolaakrap/zavrsni/install/pymoveit2/share/pymoveit2/environment/path.sh\n'}
+[0.336377] (pymoveit2) StdoutLine: {'line': b'-- Up-to-date: /home/nikolaakrap/zavrsni/install/pymoveit2/share/pymoveit2/environment/path.dsv\n'}
+[0.336485] (pymoveit2) StdoutLine: {'line': b'-- Up-to-date: /home/nikolaakrap/zavrsni/install/pymoveit2/share/pymoveit2/local_setup.bash\n'}
+[0.336593] (pymoveit2) StdoutLine: {'line': b'-- Up-to-date: /home/nikolaakrap/zavrsni/install/pymoveit2/share/pymoveit2/local_setup.sh\n'}
+[0.336698] (pymoveit2) StdoutLine: {'line': b'-- Up-to-date: /home/nikolaakrap/zavrsni/install/pymoveit2/share/pymoveit2/local_setup.zsh\n'}
+[0.336805] (pymoveit2) StdoutLine: {'line': b'-- Up-to-date: /home/nikolaakrap/zavrsni/install/pymoveit2/share/pymoveit2/local_setup.dsv\n'}
+[0.336911] (pymoveit2) StdoutLine: {'line': b'-- Installing: /home/nikolaakrap/zavrsni/install/pymoveit2/share/pymoveit2/package.dsv\n'}
+[0.337017] (pymoveit2) StdoutLine: {'line': b'-- Up-to-date: /home/nikolaakrap/zavrsni/install/pymoveit2/share/ament_index/resource_index/packages/pymoveit2\n'}
+[0.337137] (pymoveit2) StdoutLine: {'line': b'-- Up-to-date: /home/nikolaakrap/zavrsni/install/pymoveit2/share/pymoveit2/cmake/pymoveit2Config.cmake\n'}
+[0.337255] (pymoveit2) StdoutLine: {'line': b'-- Up-to-date: /home/nikolaakrap/zavrsni/install/pymoveit2/share/pymoveit2/cmake/pymoveit2Config-version.cmake\n'}
+[0.337362] (pymoveit2) StdoutLine: {'line': b'-- Up-to-date: /home/nikolaakrap/zavrsni/install/pymoveit2/share/pymoveit2/package.xml\n'}
+[0.338542] (pymoveit2) CommandEnded: {'returncode': 0}
+[0.386234] (pymoveit2) JobEnded: {'identifier': 'pymoveit2', 'rc': 0}
+[0.387436] (kamera_tf2_py) JobStarted: {'identifier': 'kamera_tf2_py'}
+[0.400642] (-) TimerEvent: {}
+[0.501101] (-) TimerEvent: {}
+[0.601459] (-) TimerEvent: {}
+[0.701982] (-) TimerEvent: {}
+[0.802341] (-) TimerEvent: {}
+[0.882843] (kamera_tf2_py) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/kamera_tf2_py', 'build', '--build-base', '/home/nikolaakrap/zavrsni/build/kamera_tf2_py/build', 'install', '--record', '/home/nikolaakrap/zavrsni/build/kamera_tf2_py/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/nikolaakrap/zavrsni/src/kamera_tf2_py', 'env': {'SUDO_GID': '1000', 'MAIL': '/var/mail/root', 'LANGUAGE': 'en_US', 'LC_TIME': 'hr_HR.UTF-8', 'USER': 'root', 'HOME': '/root', 'LC_MONETARY': 'hr_HR.UTF-8', 'COLORTERM': 'truecolor', 'SUDO_UID': '1000', 'LOGNAME': 'root', 'TERM': 'xterm-256color', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin', 'LC_ADDRESS': 'hr_HR.UTF-8', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'hr_HR.UTF-8', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.3JVEU2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUDO_COMMAND': '/usr/bin/colcon build', 'AMENT_PREFIX_PATH': '/home/nikolaakrap/zavrsni/install/pymoveit2', 'LC_NAME': 'hr_HR.UTF-8', 'SHELL': '/bin/bash', 'SUDO_USER': 'nikolaakrap', 'LC_MEASUREMENT': 'hr_HR.UTF-8', 'LC_IDENTIFICATION': 'hr_HR.UTF-8', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/nikolaakrap/zavrsni/build/kamera_tf2_py', 'LC_NUMERIC': 'hr_HR.UTF-8', 'PYTHONPATH': '/home/nikolaakrap/zavrsni/build/kamera_tf2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nikolaakrap/zavrsni/install/kamera_tf2_py/lib/python3.10/site-packages:/home/nikolaakrap/zavrsni/install/pymoveit2/local/lib/python3.10/dist-packages', 'LC_PAPER': 'hr_HR.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/nikolaakrap/zavrsni/install/pymoveit2'}, 'shell': False}
+[0.902511] (-) TimerEvent: {}
+[1.002959] (-) TimerEvent: {}
+[1.046413] (kamera_tf2_py) StdoutLine: {'line': b'running egg_info\n'}
+[1.046982] (kamera_tf2_py) StdoutLine: {'line': b'writing ../../build/kamera_tf2_py/kamera_tf2_py.egg-info/PKG-INFO\n'}
+[1.047265] (kamera_tf2_py) StdoutLine: {'line': b'writing dependency_links to ../../build/kamera_tf2_py/kamera_tf2_py.egg-info/dependency_links.txt\n'}
+[1.047492] (kamera_tf2_py) StdoutLine: {'line': b'writing entry points to ../../build/kamera_tf2_py/kamera_tf2_py.egg-info/entry_points.txt\n'}
+[1.047633] (kamera_tf2_py) StdoutLine: {'line': b'writing requirements to ../../build/kamera_tf2_py/kamera_tf2_py.egg-info/requires.txt\n'}
+[1.047755] (kamera_tf2_py) StdoutLine: {'line': b'writing top-level names to ../../build/kamera_tf2_py/kamera_tf2_py.egg-info/top_level.txt\n'}
+[1.049599] (kamera_tf2_py) StdoutLine: {'line': b"reading manifest file '../../build/kamera_tf2_py/kamera_tf2_py.egg-info/SOURCES.txt'\n"}
+[1.049910] (kamera_tf2_py) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.050180] (kamera_tf2_py) StdoutLine: {'line': b"writing manifest file '../../build/kamera_tf2_py/kamera_tf2_py.egg-info/SOURCES.txt'\n"}
+[1.050537] (kamera_tf2_py) StdoutLine: {'line': b'running build\n'}
+[1.050681] (kamera_tf2_py) StdoutLine: {'line': b'running build_py\n'}
+[1.050775] (kamera_tf2_py) StdoutLine: {'line': b'copying kamera_tf2_py/move_robot.py -> /home/nikolaakrap/zavrsni/build/kamera_tf2_py/build/lib/kamera_tf2_py\n'}
+[1.050927] (kamera_tf2_py) StdoutLine: {'line': b'running install\n'}
+[1.051176] (kamera_tf2_py) StdoutLine: {'line': b'running install_lib\n'}
+[1.051835] (kamera_tf2_py) StdoutLine: {'line': b'copying /home/nikolaakrap/zavrsni/build/kamera_tf2_py/build/lib/kamera_tf2_py/move_robot.py -> /home/nikolaakrap/zavrsni/install/kamera_tf2_py/lib/python3.10/site-packages/kamera_tf2_py\n'}
+[1.052393] (kamera_tf2_py) StdoutLine: {'line': b'byte-compiling /home/nikolaakrap/zavrsni/install/kamera_tf2_py/lib/python3.10/site-packages/kamera_tf2_py/move_robot.py to move_robot.cpython-310.pyc\n'}
+[1.054028] (kamera_tf2_py) StdoutLine: {'line': b'running install_data\n'}
+[1.054599] (kamera_tf2_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.055730] (kamera_tf2_py) StdoutLine: {'line': b"removing '/home/nikolaakrap/zavrsni/install/kamera_tf2_py/lib/python3.10/site-packages/kamera_tf2_py-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.055966] (kamera_tf2_py) StdoutLine: {'line': b'Copying ../../build/kamera_tf2_py/kamera_tf2_py.egg-info to /home/nikolaakrap/zavrsni/install/kamera_tf2_py/lib/python3.10/site-packages/kamera_tf2_py-0.0.0-py3.10.egg-info\n'}
+[1.056571] (kamera_tf2_py) StdoutLine: {'line': b'running install_scripts\n'}
+[1.074862] (kamera_tf2_py) StdoutLine: {'line': b'Installing kamera_tf2 script to /home/nikolaakrap/zavrsni/install/kamera_tf2_py/lib/kamera_tf2_py\n'}
+[1.075239] (kamera_tf2_py) StdoutLine: {'line': b'Installing move_robot script to /home/nikolaakrap/zavrsni/install/kamera_tf2_py/lib/kamera_tf2_py\n'}
+[1.075461] (kamera_tf2_py) StdoutLine: {'line': b'Installing static_marker script to /home/nikolaakrap/zavrsni/install/kamera_tf2_py/lib/kamera_tf2_py\n'}
+[1.075593] (kamera_tf2_py) StdoutLine: {'line': b"writing list of installed files to '/home/nikolaakrap/zavrsni/build/kamera_tf2_py/install.log'\n"}
+[1.103085] (-) TimerEvent: {}
+[1.111980] (kamera_tf2_py) CommandEnded: {'returncode': 0}
+[1.123620] (kamera_tf2_py) JobEnded: {'identifier': 'kamera_tf2_py', 'rc': 0}
+[1.124984] (-) EventReactorShutdown: {}

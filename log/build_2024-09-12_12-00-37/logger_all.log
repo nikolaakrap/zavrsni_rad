@@ -1,0 +1,192 @@
+[0.110s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.110s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x732d99fcf7c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x732d9a174eb0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x732d9a174eb0>>, mixin_verb=('build',))
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.268s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nikolaakrap/zavrsni'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/kamera_tf2_py) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/kamera_tf2_py) by extension 'ignore'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/kamera_tf2_py) by extension 'ignore_ament_install'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/kamera_tf2_py) by extensions ['colcon_pkg']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/kamera_tf2_py) by extension 'colcon_pkg'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/kamera_tf2_py) by extensions ['colcon_meta']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/kamera_tf2_py) by extension 'colcon_meta'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/kamera_tf2_py) by extensions ['ros']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/kamera_tf2_py) by extension 'ros'
+[0.283s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kamera_tf2_py' with type 'ros.ament_python' and name 'kamera_tf2_py'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extensions ['ignore', 'ignore_ament_install']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extension 'ignore'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extension 'ignore_ament_install'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extensions ['colcon_pkg']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extension 'colcon_pkg'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extensions ['colcon_meta']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extension 'colcon_meta'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extensions ['ros']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extension 'ros'
+[0.284s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pymoveit2' with type 'ros.ament_cmake' and name 'pymoveit2'
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.316s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.316s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.319s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/nikolaakrap/zavrsni/install
+[0.320s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 44 installed packages in /home/nikolaakrap/moveit2_ws/install
+[0.322s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 380 installed packages in /opt/ros/humble
+[0.324s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'cmake_args' from command line to 'None'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'cmake_target' from command line to 'None'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'cmake_clean_first' from command line to 'False'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'cmake_force_configure' from command line to 'False'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'ament_cmake_args' from command line to 'None'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.370s] DEBUG:colcon.colcon_core.verb:Building package 'pymoveit2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nikolaakrap/zavrsni/build/pymoveit2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nikolaakrap/zavrsni/install/pymoveit2', 'merge_install': False, 'path': '/home/nikolaakrap/zavrsni/src/pymoveit2', 'symlink_install': False, 'test_result_base': None}
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'kamera_tf2_py' build argument 'cmake_args' from command line to 'None'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'kamera_tf2_py' build argument 'cmake_target' from command line to 'None'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'kamera_tf2_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'kamera_tf2_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'kamera_tf2_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'kamera_tf2_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'kamera_tf2_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'kamera_tf2_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'kamera_tf2_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.371s] DEBUG:colcon.colcon_core.verb:Building package 'kamera_tf2_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nikolaakrap/zavrsni/build/kamera_tf2_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nikolaakrap/zavrsni/install/kamera_tf2_py', 'merge_install': False, 'path': '/home/nikolaakrap/zavrsni/src/kamera_tf2_py', 'symlink_install': False, 'test_result_base': None}
+[0.371s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.372s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.372s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nikolaakrap/zavrsni/src/pymoveit2' with build type 'ament_cmake'
+[0.373s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nikolaakrap/zavrsni/src/pymoveit2'
+[0.374s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.375s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.375s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.388s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nikolaakrap/zavrsni/build/pymoveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikolaakrap/zavrsni/install/kamera_tf2_py:/home/nikolaakrap/moveit2_ws/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/nikolaakrap/zavrsni/build/pymoveit2 -- -j8 -l8
+[0.753s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nikolaakrap/zavrsni/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikolaakrap/zavrsni/install/kamera_tf2_py:/home/nikolaakrap/moveit2_ws/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/nikolaakrap/zavrsni/build/pymoveit2 -- -j8 -l8
+[0.811s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nikolaakrap/zavrsni/build/pymoveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikolaakrap/zavrsni/install/kamera_tf2_py:/home/nikolaakrap/moveit2_ws/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/nikolaakrap/zavrsni/build/pymoveit2
+[0.857s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pymoveit2)
+[0.858s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nikolaakrap/zavrsni/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikolaakrap/zavrsni/install/kamera_tf2_py:/home/nikolaakrap/moveit2_ws/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/nikolaakrap/zavrsni/build/pymoveit2
+[0.862s] Level 1:colcon.colcon_core.environment:checking '/home/nikolaakrap/zavrsni/install/pymoveit2' for CMake module files
+[0.863s] Level 1:colcon.colcon_core.environment:checking '/home/nikolaakrap/zavrsni/install/pymoveit2' for CMake config files
+[0.864s] Level 1:colcon.colcon_core.shell:create_environment_hook('pymoveit2', 'cmake_prefix_path')
+[0.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikolaakrap/zavrsni/install/pymoveit2/share/pymoveit2/hook/cmake_prefix_path.ps1'
+[0.866s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nikolaakrap/zavrsni/install/pymoveit2/share/pymoveit2/hook/cmake_prefix_path.dsv'
+[0.867s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikolaakrap/zavrsni/install/pymoveit2/share/pymoveit2/hook/cmake_prefix_path.sh'
+[0.869s] Level 1:colcon.colcon_core.environment:checking '/home/nikolaakrap/zavrsni/install/pymoveit2/lib'
+[0.869s] Level 1:colcon.colcon_core.environment:checking '/home/nikolaakrap/zavrsni/install/pymoveit2/bin'
+[0.869s] Level 1:colcon.colcon_core.environment:checking '/home/nikolaakrap/zavrsni/install/pymoveit2/lib/pkgconfig/pymoveit2.pc'
+[0.870s] Level 1:colcon.colcon_core.environment:checking '/home/nikolaakrap/zavrsni/install/pymoveit2/lib/python3.10/site-packages'
+[0.870s] Level 1:colcon.colcon_core.environment:checking '/home/nikolaakrap/zavrsni/install/pymoveit2/bin'
+[0.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikolaakrap/zavrsni/install/pymoveit2/share/pymoveit2/package.ps1'
+[0.872s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nikolaakrap/zavrsni/install/pymoveit2/share/pymoveit2/package.dsv'
+[0.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikolaakrap/zavrsni/install/pymoveit2/share/pymoveit2/package.sh'
+[0.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikolaakrap/zavrsni/install/pymoveit2/share/pymoveit2/package.bash'
+[0.876s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikolaakrap/zavrsni/install/pymoveit2/share/pymoveit2/package.zsh'
+[0.878s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nikolaakrap/zavrsni/install/pymoveit2/share/colcon-core/packages/pymoveit2)
+[0.915s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pymoveit2)
+[0.915s] Level 1:colcon.colcon_core.environment:checking '/home/nikolaakrap/zavrsni/install/pymoveit2' for CMake module files
+[0.915s] Level 1:colcon.colcon_core.environment:checking '/home/nikolaakrap/zavrsni/install/pymoveit2' for CMake config files
+[0.916s] Level 1:colcon.colcon_core.shell:create_environment_hook('pymoveit2', 'cmake_prefix_path')
+[0.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikolaakrap/zavrsni/install/pymoveit2/share/pymoveit2/hook/cmake_prefix_path.ps1'
+[0.916s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nikolaakrap/zavrsni/install/pymoveit2/share/pymoveit2/hook/cmake_prefix_path.dsv'
+[0.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikolaakrap/zavrsni/install/pymoveit2/share/pymoveit2/hook/cmake_prefix_path.sh'
+[0.917s] Level 1:colcon.colcon_core.environment:checking '/home/nikolaakrap/zavrsni/install/pymoveit2/lib'
+[0.917s] Level 1:colcon.colcon_core.environment:checking '/home/nikolaakrap/zavrsni/install/pymoveit2/bin'
+[0.918s] Level 1:colcon.colcon_core.environment:checking '/home/nikolaakrap/zavrsni/install/pymoveit2/lib/pkgconfig/pymoveit2.pc'
+[0.918s] Level 1:colcon.colcon_core.environment:checking '/home/nikolaakrap/zavrsni/install/pymoveit2/lib/python3.10/site-packages'
+[0.918s] Level 1:colcon.colcon_core.environment:checking '/home/nikolaakrap/zavrsni/install/pymoveit2/bin'
+[0.918s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikolaakrap/zavrsni/install/pymoveit2/share/pymoveit2/package.ps1'
+[0.919s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nikolaakrap/zavrsni/install/pymoveit2/share/pymoveit2/package.dsv'
+[0.919s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikolaakrap/zavrsni/install/pymoveit2/share/pymoveit2/package.sh'
+[0.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikolaakrap/zavrsni/install/pymoveit2/share/pymoveit2/package.bash'
+[0.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikolaakrap/zavrsni/install/pymoveit2/share/pymoveit2/package.zsh'
+[0.920s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nikolaakrap/zavrsni/install/pymoveit2/share/colcon-core/packages/pymoveit2)
+[0.921s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/nikolaakrap/zavrsni/src/kamera_tf2_py' with build type 'ament_python'
+[0.921s] Level 1:colcon.colcon_core.shell:create_environment_hook('kamera_tf2_py', 'ament_prefix_path')
+[0.921s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikolaakrap/zavrsni/install/kamera_tf2_py/share/kamera_tf2_py/hook/ament_prefix_path.ps1'
+[0.922s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nikolaakrap/zavrsni/install/kamera_tf2_py/share/kamera_tf2_py/hook/ament_prefix_path.dsv'
+[0.922s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikolaakrap/zavrsni/install/kamera_tf2_py/share/kamera_tf2_py/hook/ament_prefix_path.sh'
+[0.923s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.923s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.190s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/nikolaakrap/zavrsni/src/kamera_tf2_py'
+[1.190s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.190s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.549s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nikolaakrap/zavrsni/src/kamera_tf2_py': PYTHONPATH=/home/nikolaakrap/zavrsni/build/kamera_tf2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nikolaakrap/zavrsni/install/kamera_tf2_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/kamera_tf2_py build --build-base /home/nikolaakrap/zavrsni/build/kamera_tf2_py/build install --record /home/nikolaakrap/zavrsni/build/kamera_tf2_py/install.log --single-version-externally-managed install_data
+[1.835s] Level 1:colcon.colcon_core.environment:checking '/home/nikolaakrap/zavrsni/install/kamera_tf2_py' for CMake module files
+[1.836s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nikolaakrap/zavrsni/src/kamera_tf2_py' returned '0': PYTHONPATH=/home/nikolaakrap/zavrsni/build/kamera_tf2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nikolaakrap/zavrsni/install/kamera_tf2_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/kamera_tf2_py build --build-base /home/nikolaakrap/zavrsni/build/kamera_tf2_py/build install --record /home/nikolaakrap/zavrsni/build/kamera_tf2_py/install.log --single-version-externally-managed install_data
+[1.837s] Level 1:colcon.colcon_core.environment:checking '/home/nikolaakrap/zavrsni/install/kamera_tf2_py' for CMake config files
+[1.837s] Level 1:colcon.colcon_core.environment:checking '/home/nikolaakrap/zavrsni/install/kamera_tf2_py/lib'
+[1.837s] Level 1:colcon.colcon_core.environment:checking '/home/nikolaakrap/zavrsni/install/kamera_tf2_py/bin'
+[1.837s] Level 1:colcon.colcon_core.environment:checking '/home/nikolaakrap/zavrsni/install/kamera_tf2_py/lib/pkgconfig/kamera_tf2_py.pc'
+[1.837s] Level 1:colcon.colcon_core.environment:checking '/home/nikolaakrap/zavrsni/install/kamera_tf2_py/lib/python3.10/site-packages'
+[1.837s] Level 1:colcon.colcon_core.shell:create_environment_hook('kamera_tf2_py', 'pythonpath')
+[1.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikolaakrap/zavrsni/install/kamera_tf2_py/share/kamera_tf2_py/hook/pythonpath.ps1'
+[1.838s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nikolaakrap/zavrsni/install/kamera_tf2_py/share/kamera_tf2_py/hook/pythonpath.dsv'
+[1.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikolaakrap/zavrsni/install/kamera_tf2_py/share/kamera_tf2_py/hook/pythonpath.sh'
+[1.839s] Level 1:colcon.colcon_core.environment:checking '/home/nikolaakrap/zavrsni/install/kamera_tf2_py/bin'
+[1.839s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kamera_tf2_py)
+[1.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikolaakrap/zavrsni/install/kamera_tf2_py/share/kamera_tf2_py/package.ps1'
+[1.840s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nikolaakrap/zavrsni/install/kamera_tf2_py/share/kamera_tf2_py/package.dsv'
+[1.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikolaakrap/zavrsni/install/kamera_tf2_py/share/kamera_tf2_py/package.sh'
+[1.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikolaakrap/zavrsni/install/kamera_tf2_py/share/kamera_tf2_py/package.bash'
+[1.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikolaakrap/zavrsni/install/kamera_tf2_py/share/kamera_tf2_py/package.zsh'
+[1.840s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nikolaakrap/zavrsni/install/kamera_tf2_py/share/colcon-core/packages/kamera_tf2_py)
+[1.841s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.841s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.841s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.841s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.846s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.846s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.846s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.864s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.865s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nikolaakrap/zavrsni/install/local_setup.ps1'
+[1.867s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nikolaakrap/zavrsni/install/_local_setup_util_ps1.py'
+[1.870s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nikolaakrap/zavrsni/install/setup.ps1'
+[1.875s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nikolaakrap/zavrsni/install/local_setup.sh'
+[1.875s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nikolaakrap/zavrsni/install/_local_setup_util_sh.py'
+[1.876s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nikolaakrap/zavrsni/install/setup.sh'
+[1.881s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nikolaakrap/zavrsni/install/local_setup.bash'
+[1.882s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nikolaakrap/zavrsni/install/setup.bash'
+[1.886s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nikolaakrap/zavrsni/install/local_setup.zsh'
+[1.887s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nikolaakrap/zavrsni/install/setup.zsh'

@@ -1,0 +1,26 @@
+running egg_info
+creating ../../build/kamera_tf2_py/kamera_tf2_py.egg-info
+writing ../../build/kamera_tf2_py/kamera_tf2_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/kamera_tf2_py/kamera_tf2_py.egg-info/dependency_links.txt
+writing entry points to ../../build/kamera_tf2_py/kamera_tf2_py.egg-info/entry_points.txt
+writing requirements to ../../build/kamera_tf2_py/kamera_tf2_py.egg-info/requires.txt
+writing top-level names to ../../build/kamera_tf2_py/kamera_tf2_py.egg-info/top_level.txt
+writing manifest file '../../build/kamera_tf2_py/kamera_tf2_py.egg-info/SOURCES.txt'
+reading manifest file '../../build/kamera_tf2_py/kamera_tf2_py.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/kamera_tf2_py/kamera_tf2_py.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/nikolaakrap/zavrsni/build/kamera_tf2_py/build
+creating /home/nikolaakrap/zavrsni/build/kamera_tf2_py/build/lib
+creating /home/nikolaakrap/zavrsni/build/kamera_tf2_py/build/lib/kamera_tf2_py
+copying kamera_tf2_py/move_robot.py -> /home/nikolaakrap/zavrsni/build/kamera_tf2_py/build/lib/kamera_tf2_py
+copying kamera_tf2_py/__init__.py -> /home/nikolaakrap/zavrsni/build/kamera_tf2_py/build/lib/kamera_tf2_py
+copying kamera_tf2_py/kamera_tf2.py -> /home/nikolaakrap/zavrsni/build/kamera_tf2_py/build/lib/kamera_tf2_py
+copying kamera_tf2_py/static_marker.py -> /home/nikolaakrap/zavrsni/build/kamera_tf2_py/build/lib/kamera_tf2_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/nikolaakrap/zavrsni/install/kamera_tf2_py/lib/python3.10/site-packages/kamera_tf2_py-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/kamera_tf2_py/kamera_tf2_py.egg-info to /home/nikolaakrap/zavrsni/install/kamera_tf2_py/lib/python3.10/site-packages/kamera_tf2_py-0.0.0-py3.10.egg-info

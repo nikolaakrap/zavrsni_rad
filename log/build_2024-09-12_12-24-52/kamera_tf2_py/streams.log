@@ -1,0 +1,28 @@
+[0.609s] Invoking command in '/home/nikolaakrap/zavrsni/src/kamera_tf2_py': PYTHONPATH=/home/nikolaakrap/zavrsni/build/kamera_tf2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nikolaakrap/zavrsni/install/kamera_tf2_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/kamera_tf2_py build --build-base /home/nikolaakrap/zavrsni/build/kamera_tf2_py/build install --record /home/nikolaakrap/zavrsni/build/kamera_tf2_py/install.log --single-version-externally-managed install_data
+[0.840s] running egg_info
+[0.840s] writing ../../build/kamera_tf2_py/kamera_tf2_py.egg-info/PKG-INFO
+[0.841s] writing dependency_links to ../../build/kamera_tf2_py/kamera_tf2_py.egg-info/dependency_links.txt
+[0.841s] writing entry points to ../../build/kamera_tf2_py/kamera_tf2_py.egg-info/entry_points.txt
+[0.841s] writing requirements to ../../build/kamera_tf2_py/kamera_tf2_py.egg-info/requires.txt
+[0.841s] writing top-level names to ../../build/kamera_tf2_py/kamera_tf2_py.egg-info/top_level.txt
+[0.843s] reading manifest file '../../build/kamera_tf2_py/kamera_tf2_py.egg-info/SOURCES.txt'
+[0.843s] adding license file 'LICENSE'
+[0.844s] writing manifest file '../../build/kamera_tf2_py/kamera_tf2_py.egg-info/SOURCES.txt'
+[0.844s] running build
+[0.844s] running build_py
+[0.844s] running install
+[0.845s] running install_lib
+[0.846s] running install_data
+[0.846s] running install_egg_info
+[0.848s] removing '/home/nikolaakrap/zavrsni/install/kamera_tf2_py/lib/python3.10/site-packages/kamera_tf2_py-0.0.0-py3.10.egg-info' (and everything under it)
+[0.848s] error removing /home/nikolaakrap/zavrsni/install/kamera_tf2_py/lib/python3.10/site-packages/kamera_tf2_py-0.0.0-py3.10.egg-info: [Errno 13] Permission denied: '/home/nikolaakrap/zavrsni/install/kamera_tf2_py/lib/python3.10/site-packages/kamera_tf2_py-0.0.0-py3.10.egg-info/SOURCES.txt'
+[0.849s] error removing /home/nikolaakrap/zavrsni/install/kamera_tf2_py/lib/python3.10/site-packages/kamera_tf2_py-0.0.0-py3.10.egg-info: [Errno 13] Permission denied: '/home/nikolaakrap/zavrsni/install/kamera_tf2_py/lib/python3.10/site-packages/kamera_tf2_py-0.0.0-py3.10.egg-info/requires.txt'
+[0.849s] error removing /home/nikolaakrap/zavrsni/install/kamera_tf2_py/lib/python3.10/site-packages/kamera_tf2_py-0.0.0-py3.10.egg-info: [Errno 13] Permission denied: '/home/nikolaakrap/zavrsni/install/kamera_tf2_py/lib/python3.10/site-packages/kamera_tf2_py-0.0.0-py3.10.egg-info/dependency_links.txt'
+[0.849s] error removing /home/nikolaakrap/zavrsni/install/kamera_tf2_py/lib/python3.10/site-packages/kamera_tf2_py-0.0.0-py3.10.egg-info: [Errno 13] Permission denied: '/home/nikolaakrap/zavrsni/install/kamera_tf2_py/lib/python3.10/site-packages/kamera_tf2_py-0.0.0-py3.10.egg-info/PKG-INFO'
+[0.849s] error removing /home/nikolaakrap/zavrsni/install/kamera_tf2_py/lib/python3.10/site-packages/kamera_tf2_py-0.0.0-py3.10.egg-info: [Errno 13] Permission denied: '/home/nikolaakrap/zavrsni/install/kamera_tf2_py/lib/python3.10/site-packages/kamera_tf2_py-0.0.0-py3.10.egg-info/zip-safe'
+[0.849s] error removing /home/nikolaakrap/zavrsni/install/kamera_tf2_py/lib/python3.10/site-packages/kamera_tf2_py-0.0.0-py3.10.egg-info: [Errno 13] Permission denied: '/home/nikolaakrap/zavrsni/install/kamera_tf2_py/lib/python3.10/site-packages/kamera_tf2_py-0.0.0-py3.10.egg-info/top_level.txt'
+[0.849s] error removing /home/nikolaakrap/zavrsni/install/kamera_tf2_py/lib/python3.10/site-packages/kamera_tf2_py-0.0.0-py3.10.egg-info: [Errno 13] Permission denied: '/home/nikolaakrap/zavrsni/install/kamera_tf2_py/lib/python3.10/site-packages/kamera_tf2_py-0.0.0-py3.10.egg-info/entry_points.txt'
+[0.849s] error removing /home/nikolaakrap/zavrsni/install/kamera_tf2_py/lib/python3.10/site-packages/kamera_tf2_py-0.0.0-py3.10.egg-info: [Errno 39] Directory not empty: '/home/nikolaakrap/zavrsni/install/kamera_tf2_py/lib/python3.10/site-packages/kamera_tf2_py-0.0.0-py3.10.egg-info'
+[0.849s] error: [Errno 13] Permission denied: '/home/nikolaakrap/zavrsni/install/kamera_tf2_py/lib/python3.10/site-packages/kamera_tf2_py-0.0.0-py3.10.egg-info/SOURCES.txt'
+[0.850s] Copying ../../build/kamera_tf2_py/kamera_tf2_py.egg-info to /home/nikolaakrap/zavrsni/install/kamera_tf2_py/lib/python3.10/site-packages/kamera_tf2_py-0.0.0-py3.10.egg-info
+[0.875s] Invoked command in '/home/nikolaakrap/zavrsni/src/kamera_tf2_py' returned '1': PYTHONPATH=/home/nikolaakrap/zavrsni/build/kamera_tf2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nikolaakrap/zavrsni/install/kamera_tf2_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/kamera_tf2_py build --build-base /home/nikolaakrap/zavrsni/build/kamera_tf2_py/build install --record /home/nikolaakrap/zavrsni/build/kamera_tf2_py/install.log --single-version-externally-managed install_data

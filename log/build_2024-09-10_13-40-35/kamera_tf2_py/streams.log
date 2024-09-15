@@ -1,0 +1,28 @@
+[0.709s] Invoking command in '/home/nikolaakrap/zavrsni/src/kamera_tf2_py': PYTHONPATH=/home/nikolaakrap/zavrsni/build/kamera_tf2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nikolaakrap/zavrsni/install/kamera_tf2_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/kamera_tf2_py build --build-base /home/nikolaakrap/zavrsni/build/kamera_tf2_py/build install --record /home/nikolaakrap/zavrsni/build/kamera_tf2_py/install.log --single-version-externally-managed install_data
+[1.005s] running egg_info
+[1.005s] writing ../../build/kamera_tf2_py/kamera_tf2_py.egg-info/PKG-INFO
+[1.006s] writing dependency_links to ../../build/kamera_tf2_py/kamera_tf2_py.egg-info/dependency_links.txt
+[1.006s] writing entry points to ../../build/kamera_tf2_py/kamera_tf2_py.egg-info/entry_points.txt
+[1.006s] writing requirements to ../../build/kamera_tf2_py/kamera_tf2_py.egg-info/requires.txt
+[1.006s] writing top-level names to ../../build/kamera_tf2_py/kamera_tf2_py.egg-info/top_level.txt
+[1.009s] reading manifest file '../../build/kamera_tf2_py/kamera_tf2_py.egg-info/SOURCES.txt'
+[1.009s] adding license file 'LICENSE'
+[1.010s] writing manifest file '../../build/kamera_tf2_py/kamera_tf2_py.egg-info/SOURCES.txt'
+[1.010s] running build
+[1.010s] running build_py
+[1.010s] copying kamera_tf2_py/move_robot.py -> /home/nikolaakrap/zavrsni/build/kamera_tf2_py/build/lib/kamera_tf2_py
+[1.011s] running install
+[1.011s] running install_lib
+[1.012s] copying /home/nikolaakrap/zavrsni/build/kamera_tf2_py/build/lib/kamera_tf2_py/move_robot.py -> /home/nikolaakrap/zavrsni/install/kamera_tf2_py/lib/python3.10/site-packages/kamera_tf2_py
+[1.013s] byte-compiling /home/nikolaakrap/zavrsni/install/kamera_tf2_py/lib/python3.10/site-packages/kamera_tf2_py/move_robot.py to move_robot.cpython-310.pyc
+[1.013s] running install_data
+[1.014s] copying launch/kamera_tf2.launch.py -> /home/nikolaakrap/zavrsni/install/kamera_tf2_py/share/kamera_tf2_py/launch
+[1.014s] running install_egg_info
+[1.015s] removing '/home/nikolaakrap/zavrsni/install/kamera_tf2_py/lib/python3.10/site-packages/kamera_tf2_py-0.0.0-py3.10.egg-info' (and everything under it)
+[1.016s] Copying ../../build/kamera_tf2_py/kamera_tf2_py.egg-info to /home/nikolaakrap/zavrsni/install/kamera_tf2_py/lib/python3.10/site-packages/kamera_tf2_py-0.0.0-py3.10.egg-info
+[1.016s] running install_scripts
+[1.037s] Installing kamera_tf2 script to /home/nikolaakrap/zavrsni/install/kamera_tf2_py/lib/kamera_tf2_py
+[1.037s] Installing move_robot script to /home/nikolaakrap/zavrsni/install/kamera_tf2_py/lib/kamera_tf2_py
+[1.037s] Installing static_marker script to /home/nikolaakrap/zavrsni/install/kamera_tf2_py/lib/kamera_tf2_py
+[1.038s] writing list of installed files to '/home/nikolaakrap/zavrsni/build/kamera_tf2_py/install.log'
+[1.074s] Invoked command in '/home/nikolaakrap/zavrsni/src/kamera_tf2_py' returned '0': PYTHONPATH=/home/nikolaakrap/zavrsni/build/kamera_tf2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nikolaakrap/zavrsni/install/kamera_tf2_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/kamera_tf2_py build --build-base /home/nikolaakrap/zavrsni/build/kamera_tf2_py/build install --record /home/nikolaakrap/zavrsni/build/kamera_tf2_py/install.log --single-version-externally-managed install_data

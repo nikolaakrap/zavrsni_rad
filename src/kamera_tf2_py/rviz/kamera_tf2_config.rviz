@@ -1,0 +1,41 @@
+Panels:
+  - Class: rviz_common/DisplaysPanel
+    Displays:
+      - Class: rviz_default_plugins/TF
+        Name: TF
+        Enabled: true
+  - Class: rviz_common/ViewsPanel
+    Config:
+      - Class: rviz_default_plugins/Orbit
+        Name: Orbit
+        Distance: 10
+        Target Frame: world
+        Eye: [3, 3, 3]
+        Focus: [0, 0, 0]
+        Up: [0, 0, 1]
+        Min Distance: 0.01
+        Max Distance: 10000
+  - Class: rviz_common/TimePanel
+Visualization Manager:
+  Global Options:
+    Fixed Frame: world
+  Tools:
+    - Class: rviz_default_plugins/tools/Interact
+    - Class: rviz_default_plugins/tools/Select
+    - Class: rviz_default_plugins/tools/MoveCamera
+    - Class: rviz_default_plugins/tools/FocusCamera
+    - Class: rviz_default_plugins/tools/Measure
+    - Class: rviz_default_plugins/tools/SetInitialPose
+    - Class: rviz_default_plugins/tools/SetGoal
+  Displays:
+    - Name: TF
+      Class: rviz_default_plugins/TF
+      Enabled: true
+  Views:
+    Current: Orbit
+    Orbit:
+      Class: rviz_default_plugins/Orbit
+      Distance: 10
+      Eye: [3, 3, 3]
+      Focus: [0, 0, 0]
+      Up: [0, 0, 1]

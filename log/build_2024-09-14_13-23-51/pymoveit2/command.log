@@ -1,0 +1,4 @@
+Invoking command in '/home/nikolaakrap/zavrsni/build/pymoveit2': /usr/bin/cmake --build /home/nikolaakrap/zavrsni/build/pymoveit2 -- -j8 -l8
+Invoked command in '/home/nikolaakrap/zavrsni/build/pymoveit2' returned '0': /usr/bin/cmake --build /home/nikolaakrap/zavrsni/build/pymoveit2 -- -j8 -l8
+Invoking command in '/home/nikolaakrap/zavrsni/build/pymoveit2': /usr/bin/cmake --install /home/nikolaakrap/zavrsni/build/pymoveit2
+Invoked command in '/home/nikolaakrap/zavrsni/build/pymoveit2' returned '0': /usr/bin/cmake --install /home/nikolaakrap/zavrsni/build/pymoveit2

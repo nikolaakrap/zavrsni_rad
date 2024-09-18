@@ -31,27 +31,6 @@ class KameraTF2(Node):
         
         self.timer = self.create_timer(0.1, self.timer_callback)
 
-    # vraca False ako je matrica nan
-    def validitet_transformacije(self, matrica):
-        for i in matrica:
-            for j in matrica:
-                if math.isnan(i) or math.isinf(i):
-                    return False
-        return True
-
-    # skaliranje iz mm u m
-    def skaliranje(self, translacija, faktor_skaliranja):
-        return [x * faktor_skaliranja for x in translacija]
-    
-    # mnozenje kvaterniona
-    def mnozenje_quat(self, q0, q1):
-        w0, x0, y0, z0 = q0
-        w1, x1, y1, z1 = q1
-        return np.array([-x1 * x0 - y1 * y0 - z1 * z0 + w1 * w0,
-                     x1 * w0 + y1 * z0 - z1 * y0 + w1 * x0,
-                     -x1 * z0 + y1 * w0 + z1 * x0 + w1 * y0,
-                     x1 * y0 - y1 * x0 + z1 * w0 + w1 * z0], dtype=np.float64)
-
     def timer_callback(self):
             try:
                 matrica = self.tracker.get_frame()

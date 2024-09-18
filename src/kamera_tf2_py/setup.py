@@ -27,6 +27,7 @@ setup(
             'kamera_tf2 = kamera_tf2_py.kamera_tf2:main',
             'static_marker = kamera_tf2_py.static_marker:main',
             'move_robot = kamera_tf2_py.move_robot:main',
+            'gather_info = kamera_tf2_py.gather_info:main'
         ],
     },
 )

@@ -23,4 +23,9 @@ def generate_launch_description():
             executable="move_robot",
             name="move_robot"
         ),
+        Node(
+            package="kamera_tf2_py",
+            executable="gather_info",
+            name="gather_info"
+        ),
     ])

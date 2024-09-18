@@ -1,4 +1,5 @@
 [console_scripts]
+gather_info = kamera_tf2_py.gather_info:main
 kamera_tf2 = kamera_tf2_py.kamera_tf2:main
 move_robot = kamera_tf2_py.move_robot:main
 static_marker = kamera_tf2_py.static_marker:main

@@ -10,6 +10,7 @@ setup.py
 ../../build/kamera_tf2_py/kamera_tf2_py.egg-info/top_level.txt
 ../../build/kamera_tf2_py/kamera_tf2_py.egg-info/zip-safe
 kamera_tf2_py/__init__.py
+kamera_tf2_py/gather_info.py
 kamera_tf2_py/kamera_tf2.py
 kamera_tf2_py/move_robot.py
 kamera_tf2_py/static_marker.py

@@ -59,35 +59,18 @@ class KameraTF2(Node):
                     Mat_stat = matrica[3][0]  # staticni marker
                     Mat_sty = matrica[3][1]  # stylus
                     Mat_kost = matrica[3][2] # kost
-                    
-                    # pozicija vrha stylusa u koordinatnom sustavu stylusa
-                    vrh_alata = np.array([[1, 0, 0, -19],
-                                          [0, 1, 0, 0],
-                                          [0, 0, 1, -154.717],
-                                          [0, 0, 0, 1]])
     
-                    # namjestanje koordinatnog sustava stylusa
-                    robot_marker = np.array([[0, -1, 0, 0], 
-                                             [-1, 0, 0, 0],
-                                             [0, 0, -1, 0],
+                    robot_marker = np.array([[0, 1, 0, 0], 
+                                             [1, 0, 0, -19],
+                                             [0, 0, -1, -154.717],
                                              [0, 0, 0, 1]])
 
-                    vrh_kost = np.array([[1, 0, 0, 0],
-                                          [0, 1, 0, 0],
-                                          [0, 0, 1, 0.016],
-                                          [0, 0, 0, 1]])
-
-                    kost_rot = np.array([[0, -1, 0, 0], 
-                                         [0, 0, 1, 0],
+                    kost_rot = np.array([[0, 0, -1, 0], 
                                          [-1, 0, 0, 0],
-                                         [0, 0, 0, 1]])     
+                                         [0, 1, 0, 0],
+                                         [0, 0, 0, 1]])               
 
-                    konacna_rot = np.array([[0, 0, -1, 0], 
-                                            [0, -1, 0, 0],
-                                            [-1, 0, 0, 0],
-                                            [0, 0, 0, 1]])            
-
-                    for x in np.nditer(Mat_sty):
+                    for x in np.nditer(Mat_kost):
                         # ako kamera ne vidi stylus, njegov frame poklapa s tool frameom robota zbog čega se robot zaustavlja
                         if np.isnan(x):
                             t1 = TransformStamped()
@@ -105,7 +88,6 @@ class KameraTF2(Node):
                         else:
                             # racunanje pozicije stylusa u frameu staticnog markera
                             sty_stat = np.dot(np.linalg.inv(Mat_stat), Mat_sty)
-                            sty_stat = np.matmul(sty_stat, vrh_alata)
                             sty_stat = np.matmul(sty_stat, robot_marker)
                             sty_stat_quat = R.from_matrix(sty_stat[:3, :3]).as_quat()
                             sty_stat_trans = [sty_stat[0][3], sty_stat[1][3], sty_stat[2][3]]
@@ -115,10 +97,10 @@ class KameraTF2(Node):
                             t1.header.stamp = self.get_clock().now().to_msg()
                             t1.header.frame_id = 'base_link_marker'
                             t1.child_frame_id = 'stylus'
-                            t1.transform.rotation.w = sty_stat_quat[0]
-                            t1.transform.rotation.x = sty_stat_quat[1]
-                            t1.transform.rotation.y = sty_stat_quat[2]
-                            t1.transform.rotation.z = sty_stat_quat[3]
+                            t1.transform.rotation.w = sty_stat_quat[3]
+                            t1.transform.rotation.x = sty_stat_quat[0]
+                            t1.transform.rotation.y = sty_stat_quat[1]
+                            t1.transform.rotation.z = sty_stat_quat[2]
                             t1.transform.translation.x = sty_stat_trans[0] / 1000 # iz mm u m
                             t1.transform.translation.y = sty_stat_trans[1] / 1000 # iz mm u m
                             t1.transform.translation.z = sty_stat_trans[2] / 1000 # iz mm u m
@@ -127,8 +109,7 @@ class KameraTF2(Node):
 
                             # racunanje pozicije kosti u frameu staticnog markera
                             kost_stat = np.dot(np.linalg.inv(Mat_stat), Mat_kost)
-                            #kost_stat = np.matmul(kost_stat, vrh_kost)
-                            kost_stat = np.matmul(kost_stat, konacna_rot)
+                            kost_stat = np.matmul(kost_stat, kost_rot)
                             kost_stat_quat = R.from_matrix(kost_stat[:3, :3]).as_quat()
                             kost_stat_trans = [kost_stat[0][3], kost_stat[1][3], kost_stat[2][3]]
 
@@ -137,10 +118,10 @@ class KameraTF2(Node):
                             t2.header.stamp = self.get_clock().now().to_msg()
                             t2.header.frame_id = 'base_link_marker'
                             t2.child_frame_id = 'kost'
-                            t2.transform.rotation.w = kost_stat_quat[0]
-                            t2.transform.rotation.x = kost_stat_quat[1]
-                            t2.transform.rotation.y = kost_stat_quat[2]
-                            t2.transform.rotation.z = kost_stat_quat[3]
+                            t2.transform.rotation.w = kost_stat_quat[3]
+                            t2.transform.rotation.x = kost_stat_quat[0]
+                            t2.transform.rotation.y = kost_stat_quat[1]
+                            t2.transform.rotation.z = kost_stat_quat[2]
                             t2.transform.translation.x = kost_stat_trans[0] / 1000 # iz mm u m
                             t2.transform.translation.y = kost_stat_trans[1] / 1000 # iz mm u m
                             t2.transform.translation.z = kost_stat_trans[2] / 1000 # iz mm u m

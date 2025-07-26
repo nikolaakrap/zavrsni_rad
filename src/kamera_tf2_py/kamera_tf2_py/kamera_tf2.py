@@ -55,7 +55,7 @@ class KameraTF2(Node):
                             t1 = TransformStamped()
                             t1.header.stamp = self.get_clock().now().to_msg()
                             t1.header.frame_id = 'tool0'
-                            t1.child_frame_id = 'stylus'
+                            t1.child_frame_id = 'kost'
                             t1.transform.rotation.w = 1.0
                             t1.transform.rotation.x = 0.0
                             t1.transform.rotation.y = 0.0
